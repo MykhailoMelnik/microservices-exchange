@@ -12,7 +12,7 @@
     <artifactId>spring-cloud-config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-cloud-config-server</name>
-    <description>spring-cloud-config-server</description>
+    <description>Centralized Configuration Server</description>
     <properties>
         <java.version>15</java.version>
         <spring-cloud.version>2020.0.0</spring-cloud.version>
@@ -21,6 +21,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
 
         <dependency>
