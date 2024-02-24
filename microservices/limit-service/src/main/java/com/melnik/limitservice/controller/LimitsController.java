@@ -16,6 +16,5 @@ public class LimitsController {
 	public Limits retrieveLimits() {
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());
-//		return new Limits(1,1000);
 	}
 }
