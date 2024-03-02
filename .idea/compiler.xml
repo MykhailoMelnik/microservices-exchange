@@ -19,10 +19,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-config-server" options="-parameters" />
-      <module name="currency-conversion-service" options="-parameters" />
-      <module name="currency-exchange-service" options="-parameters" />
-      <module name="limit-service" options="-parameters" />
-      <module name="spring-cloud-config-server" options="-parameters" />
+      <module name="currency-conversion-service" options="" />
+      <module name="currency-exchange-service" options="" />
+      <module name="limit-service" options="" />
+      <module name="spring-cloud-config-server" options="" />
     </option>
   </component>
 </project>
