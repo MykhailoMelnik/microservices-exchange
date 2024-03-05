@@ -10,6 +10,7 @@
         <module name="currency-conversion-service" />
         <module name="limit-service" />
         <module name="spring-cloud-config-server" />
+        <module name="naming-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,10 +20,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-config-server" options="-parameters" />
-      <module name="currency-conversion-service" options="" />
-      <module name="currency-exchange-service" options="" />
-      <module name="limit-service" options="" />
-      <module name="spring-cloud-config-server" options="" />
+      <module name="currency-conversion-service" options="-parameters" />
+      <module name="currency-exchange-service" options="-parameters" />
+      <module name="limit-service" options="-parameters" />
+      <module name="naming-server" options="-parameters" />
+      <module name="spring-cloud-config-server" options="-parameters" />
     </option>
   </component>
 </project>

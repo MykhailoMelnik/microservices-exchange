@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/microservices/carrency-exchange-service/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/currency-exchange-service/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/currency-conversion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/naming-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
